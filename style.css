@@ -1,0 +1,66 @@
+{
+box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top, rgba(0,0,0,2) , rgba(0, 0, 255, 0.486) );
+    min-height: 400px;
+    
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24;
+    color: lightseagreen;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.keyboard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: aliceblue;
+    grid-gap: 10px;
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+input{
+    border: 60px;
+    background-color: rgb(187, 187, 236);
+    border-color: black;
+    border-width: thick;
+    color: black;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    height: 40;
+    width: 321;
+    border-radius: 10px;
+    align-content: center;
+    align-items: center;
+
+}
+
+input[type=button]{
+    border-radius: 30px;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    font-family: "Montserrat";
+    align-content: center;
+    align-items: center;
+
+}
